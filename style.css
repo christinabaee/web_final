@@ -75,6 +75,7 @@ body{
   box-shadow: 0 2px 12px 0 #000000;
 }
 
+
 .blinkSize{
   width:45vmin;
   height:45vmin;
@@ -194,8 +195,21 @@ body{
     50%  { transform: translate(0, 15px); }
     100%   { transform: translate(0, -0px); }
   }
+/*
+.moveSide{
+  animation-name: no;
+  animation-duration:2s;
+  animation-iteration-count: infinites;
+  animation-timing-function: linear;
+}
 
-  .clickText{
+@keyframes no{
+  0% { transform: translate(0px,  0); }
+  50%  { transform: translate(5px, 0); }
+  100%   { transform: translate(-0px, 0); }
+} */
+
+.clickText{
     text-align:center;
     font-size: 5vmin;
     color:#000000;

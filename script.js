@@ -21,6 +21,9 @@ document.getElementById("popup10").addEventListener("click",focus10);
 document.getElementById("popup11").addEventListener("click",focus11);
 document.getElementById("popup12").addEventListener("click",focus12);
 
+
+
+
 var floating=document.getElementById('floatingBox');
 
 var stimulate=0;
